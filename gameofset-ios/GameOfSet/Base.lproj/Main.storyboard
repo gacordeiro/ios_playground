@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="GameViewController" customModule="GameOfSet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="UV8-Ho-uFG">
+                                <rect key="frame" x="10" y="30" width="300" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDS-1g-xEl" userLabel="card1" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="43.5" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XB9-L4-J9l" userLabel="card2" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="51.5" y="0.0" width="43" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3WO-1U-bHR" userLabel="card3" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="102.5" y="0.0" width="43.5" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCb-Qa-Wja" userLabel="card4" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="154" y="0.0" width="43.5" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wv2-rE-5k7" userLabel="card5" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="205.5" y="0.0" width="43" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dum-EU-fvO" userLabel="card6" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="256.5" y="0.0" width="43.5" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="85h-GF-n7U">
+                                <rect key="frame" x="10" y="68" width="300" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZ2-aO-cv6" userLabel="card7" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="43.5" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wbx-oW-8Rp" userLabel="card8" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="51.5" y="0.0" width="43" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="si5-bC-gcR" userLabel="card9" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="102.5" y="0.0" width="43.5" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TdH-Ns-YPh" userLabel="card10" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="154" y="0.0" width="43.5" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ArY-v1-gRu" userLabel="card11" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="205.5" y="0.0" width="43" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4A-VF-mOY" userLabel="card12" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="256.5" y="0.0" width="43.5" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="FNr-Ei-KNK">
+                                <rect key="frame" x="10" y="106" width="300" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zxc-en-d0H" userLabel="card13" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="43.5" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z5o-7c-Hb9" userLabel="card14" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="51.5" y="0.0" width="43" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nab-Tb-5hV" userLabel="card15" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="102.5" y="0.0" width="43.5" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WuF-2X-qTr" userLabel="card16" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="154" y="0.0" width="43.5" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RXX-Ou-18A" userLabel="card17" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="205.5" y="0.0" width="43" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S8l-jA-L6q" userLabel="card18" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="256.5" y="0.0" width="43.5" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="lbG-Im-dQO">
+                                <rect key="frame" x="10" y="144" width="300" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="moa-yd-f9p" userLabel="card19" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="43.5" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAL-Ub-CvT" userLabel="card20" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="51.5" y="0.0" width="43" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rPZ-I9-7Cj" userLabel="card21" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="102.5" y="0.0" width="43.5" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frM-UR-40k" userLabel="card22" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="154" y="0.0" width="43.5" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PwZ-ek-ehf" userLabel="card23" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="205.5" y="0.0" width="43" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rsN-vI-4h0" userLabel="card24" customClass="CardView" customModule="GameOfSet" customModuleProvider="target">
+                                        <rect key="frame" x="256.5" y="0.0" width="43.5" height="30"/>
+                                        <state key="normal" title="GoS"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eio-em-vm2">
+                                <rect key="frame" x="166.5" y="527" width="76.5" height="25.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Xi-7a-Wg6">
+                                <rect key="frame" x="10" y="522" width="97" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="New Game"/>
+                                <connections>
+                                    <action selector="newGameClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3PE-Ry-2cJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sdu-wf-fsf">
+                                <rect key="frame" x="253" y="523" width="57" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="5" maxX="10" maxY="5"/>
+                                <state key="normal" title="Hint"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UV8-Ho-uFG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="EJW-s0-kUL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UV8-Ho-uFG" secondAttribute="trailing" constant="10" id="H4M-fg-fbX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lbG-Im-dQO" secondAttribute="trailing" constant="10" id="MNR-f4-DMJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FNr-Ei-KNK" secondAttribute="trailing" constant="10" id="MeN-IU-RyX"/>
+                            <constraint firstItem="Sdu-wf-fsf" firstAttribute="leading" secondItem="Eio-em-vm2" secondAttribute="trailing" constant="10" id="OXZ-P1-W7c"/>
+                            <constraint firstItem="Eio-em-vm2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="9Xi-7a-Wg6" secondAttribute="trailing" constant="8" symbolic="YES" id="PAd-ZE-wHi"/>
+                            <constraint firstItem="lbG-Im-dQO" firstAttribute="top" secondItem="FNr-Ei-KNK" secondAttribute="bottom" constant="8" symbolic="YES" id="PYq-xf-1uF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="85h-GF-n7U" secondAttribute="trailing" constant="10" id="QqD-md-Ag3"/>
+                            <constraint firstItem="UV8-Ho-uFG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="ROt-J2-TDq"/>
+                            <constraint firstItem="Sdu-wf-fsf" firstAttribute="firstBaseline" secondItem="9Xi-7a-Wg6" secondAttribute="firstBaseline" id="Rdm-H5-tbz"/>
+                            <constraint firstItem="9Xi-7a-Wg6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Rle-qX-5v3"/>
+                            <constraint firstItem="Eio-em-vm2" firstAttribute="firstBaseline" secondItem="9Xi-7a-Wg6" secondAttribute="firstBaseline" id="Tbt-Rw-9l4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Sdu-wf-fsf" secondAttribute="trailing" constant="10" id="US2-Yg-aY7"/>
+                            <constraint firstItem="FNr-Ei-KNK" firstAttribute="top" secondItem="85h-GF-n7U" secondAttribute="bottom" constant="8" symbolic="YES" id="Zd0-N5-FBu"/>
+                            <constraint firstItem="85h-GF-n7U" firstAttribute="top" secondItem="UV8-Ho-uFG" secondAttribute="bottom" constant="8" symbolic="YES" id="dEY-Kc-3MA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9Xi-7a-Wg6" secondAttribute="bottom" constant="10" id="hvg-es-pgI"/>
+                            <constraint firstItem="FNr-Ei-KNK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="io2-dg-YtV"/>
+                            <constraint firstItem="lbG-Im-dQO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="lg6-En-hUK"/>
+                            <constraint firstItem="85h-GF-n7U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="s05-Ip-idQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="scoreLabel" destination="Eio-em-vm2" id="Yt9-FA-vHm"/>
+                        <outletCollection property="cardButtons" destination="XDS-1g-xEl" collectionClass="NSMutableArray" id="37c-lO-KZG"/>
+                        <outletCollection property="cardButtons" destination="XB9-L4-J9l" collectionClass="NSMutableArray" id="h53-Me-HAi"/>
+                        <outletCollection property="cardButtons" destination="3WO-1U-bHR" collectionClass="NSMutableArray" id="wty-8M-fsL"/>
+                        <outletCollection property="cardButtons" destination="GCb-Qa-Wja" collectionClass="NSMutableArray" id="Oly-Vf-Pvb"/>
+                        <outletCollection property="cardButtons" destination="Wv2-rE-5k7" collectionClass="NSMutableArray" id="Awe-Ni-gqg"/>
+                        <outletCollection property="cardButtons" destination="Dum-EU-fvO" collectionClass="NSMutableArray" id="k3e-yS-Xsa"/>
+                        <outletCollection property="cardButtons" destination="pZ2-aO-cv6" collectionClass="NSMutableArray" id="drm-d7-Dsk"/>
+                        <outletCollection property="cardButtons" destination="Wbx-oW-8Rp" collectionClass="NSMutableArray" id="LJL-hN-3Yt"/>
+                        <outletCollection property="cardButtons" destination="si5-bC-gcR" collectionClass="NSMutableArray" id="oee-mj-a26"/>
+                        <outletCollection property="cardButtons" destination="TdH-Ns-YPh" collectionClass="NSMutableArray" id="ceJ-Xq-yJs"/>
+                        <outletCollection property="cardButtons" destination="ArY-v1-gRu" collectionClass="NSMutableArray" id="6MZ-Ov-nFb"/>
+                        <outletCollection property="cardButtons" destination="p4A-VF-mOY" collectionClass="NSMutableArray" id="Pf3-Ry-IRO"/>
+                        <outletCollection property="cardButtons" destination="Zxc-en-d0H" collectionClass="NSMutableArray" id="Q2J-6N-YYy"/>
+                        <outletCollection property="cardButtons" destination="Z5o-7c-Hb9" collectionClass="NSMutableArray" id="OT2-66-TpU"/>
+                        <outletCollection property="cardButtons" destination="nab-Tb-5hV" collectionClass="NSMutableArray" id="6JR-6m-cjV"/>
+                        <outletCollection property="cardButtons" destination="WuF-2X-qTr" collectionClass="NSMutableArray" id="ulv-Zc-wzh"/>
+                        <outletCollection property="cardButtons" destination="RXX-Ou-18A" collectionClass="NSMutableArray" id="Vnz-jK-oE8"/>
+                        <outletCollection property="cardButtons" destination="S8l-jA-L6q" collectionClass="NSMutableArray" id="5UP-jz-x1I"/>
+                        <outletCollection property="cardButtons" destination="moa-yd-f9p" collectionClass="NSMutableArray" id="SM0-8K-1Io"/>
+                        <outletCollection property="cardButtons" destination="hAL-Ub-CvT" collectionClass="NSMutableArray" id="LsB-HK-0Sk"/>
+                        <outletCollection property="cardButtons" destination="rPZ-I9-7Cj" collectionClass="NSMutableArray" id="3bp-ZG-jdU"/>
+                        <outletCollection property="cardButtons" destination="frM-UR-40k" collectionClass="NSMutableArray" id="mug-GS-Tsh"/>
+                        <outletCollection property="cardButtons" destination="PwZ-ek-ehf" collectionClass="NSMutableArray" id="HKh-eW-f9f"/>
+                        <outletCollection property="cardButtons" destination="rsN-vI-4h0" collectionClass="NSMutableArray" id="sT4-fh-EfV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129.375" y="129.92957746478874"/>
+        </scene>
+    </scenes>
+</document>
